@@ -1,1 +1,1 @@
-INSERT INTO userstwo (username, password) VALUES ($1, $2) RETURNING username;
+INSERT INTO userstwo (username, password) VALUES ($1, $2) RETURNING username, password
